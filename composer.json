@@ -1,0 +1,28 @@
+{
+    "name": "mage-wizz/module-order-grid-actions",
+    "version": "1.0.0",
+    "description": "N/A",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "magento/module-sales": "103.0.*",
+        "mage-wizz/module-base": "*"
+    },
+    "repositories": {
+        "mage-wizz/module-base": {
+            "type": "vcs",
+            "url": "https://github.com/MageWizz/Base.git"
+        }
+    },
+    "license": [
+        "Proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageWizz\\OrderGridActions\\": ""
+        }
+    }
+}

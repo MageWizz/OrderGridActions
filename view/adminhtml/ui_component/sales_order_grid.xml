@@ -1,0 +1,19 @@
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <listingToolbar name="listing_top">
+        <massaction name="listing_massaction">
+            <action name="mass_order_complete_action">
+                <argument name="data" xsi:type="array">
+                    <item name="config" xsi:type="array">
+                        <item name="type" xsi:type="string">mass_order_complete_action</item>
+                        <item name="label" xsi:type="string" translate="true">Complete orders</item>
+                        <item name="url" xsi:type="url" path="ordergridactions/order/complete"/>
+                        <item name="confirm" xsi:type="array">
+                            <item name="title" xsi:type="string" translate="true">Complete orders</item>
+                            <item name="message" xsi:type="string" translate="true">Orders will receive invoices and shipments if not made yet</item>
+                        </item>
+                    </item>
+                </argument>
+            </action>
+        </massaction>
+    </listingToolbar>
+</listing>
